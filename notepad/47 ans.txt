@@ -1,0 +1,56 @@
+47.
+
+
+f(x,y,z) => f (15,97,0)
+
+=> 	if (y = 0) => false
+
+ if (y mod 2 = 1) => (97 mod 2 = 1) = true
+  z := 0 + 15 = 15
+
+f(2*15,97 div 2,z) => f(30,48,15)
+
+
+=>	if (y = 0) => false
+
+ if (y mod 2 = 1) => (48 mod 2 = 1) = false
+  
+f(2*x,y div 2,z) => f(2*30,48 div 2,15) = f(60,24,15)
+
+
+
+=> 	if (y = 0) => false
+
+ if (y mod 2 = 1) => (24 mod 2 = 1) = false
+  
+f(2*x,y div 2,z) => f(2*60,24 div 2,15) = f(120,12,15)
+
+
+=>	 if (y = 0) => false
+
+ if (y mod 2 = 1) => (12 mod 2 = 1) = false
+  
+f(2*x,y div 2,z) => f(2*120,12 div 2,15) = f(240,6,15)
+
+
+=>	 if (y = 0) => false
+
+ if (y mod 2 = 1) => (6 mod 2 = 1) = false
+  
+f(2*x,y div 2,z) => f(2*240,6 div 2,15) = f(480,3,15)
+
+
+=>	if (y = 0) => false
+
+ if (y mod 2 = 1) => (3 mod 2 = 1) = true
+   z := 15 + 480 = 495
+  
+f(2*x,y div 2,z) => f(2*480,3 div 2,495) = f(960,1,495)
+ 
+
+=>	if (y = 0) => false
+
+ if (y mod 2 = 1) => (1 mod 2 = 1) = true
+   z := 495 + 960 = 1455
+  
+f(2*x,y div 2,z) => f(2*960,1 div 2,1455) = f(1920,0,1455)

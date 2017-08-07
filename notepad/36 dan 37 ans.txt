@@ -1,0 +1,139 @@
+36. 
+	hop(x,y,z) = hop(18,3,1993)
+
+if y>z = 3>1993  => false
+ if x>y = 18>3 => true
+ hop := hop(3,18,1993)
+if y>z = 18>1993 = false
+ if x>y = 3>18 => false
+ hop := hip(3,18) + 1993;
+
+
+hip(x,y) + z = hip (3,18) + 1993
+
+if x<y = 3<18 => true
+ hip := hip(18,3)
+if 18<3 => false
+ hip := hap(18,1) + hap (3,2)
+
+hap(x,t) = hap((x,t => 18,1) and (x,t => (3,2)
+
+(x,t) = (18,1)
+if t = 1 true
+ hap := 18 mod 5 => 3
+
+(x,t) = (1993,2)
+if t = 1 false
+ hap := 5*3 => 15
+
+hip := (18,3)
+hip = hap(18,1) + hap(3,2) = 18
+hap =     3     +     15   = 18
+
+hop := hip (3,18)+1993
+           18    + 1993 = 2011 
+
+
+
+
+
+
+37.
+		(hip(hop(201,320,12),hop(20,1120,10))+hap(21,30))
+
+	hop (x,y,z) = hop(201,320,12)
+
+if y>z = 320>12 => true
+ hop := hop (201,12,320)
+
+if y>z = 12>320 => false
+ if x>y = 201>12 => true
+  hop := hop(12,201,320)
+
+if y>z = 201>320 => false
+ if x>y = 12>201 => false
+  hop := hip(12,201) + 320
+
+	hip (x,y) + z = hip(12,201)+320
+
+if x<y = 12<201 => true
+ hip := hip(201,12)
+
+if x<y = 201<12 => false
+ hip := hap(201,1) + hap(12,2);
+
+	hap (x,1)+hap(x,2) = hap(201,1)+hap(12,2)
+if t = 1 => true
+ hap := 201 mod 5 => 1
+if t = 1 => false
+ hap := 5*12 = 60
+
+
+hip := hap(201,1)+hap (12,2)
+	   1     +   60  = 61
+hip := hip(12,201) + 320
+            61     + 320 = 381
+
+
+
+	hop (x,y,z) = hop(20,1120,10)
+
+if y>z = 1120>10 => true
+ hop := hop (20,10,1120)
+
+if y>z = 10>1120 => false
+ if x>y = 20>10 => true
+  hop := hop(10,20,1120)
+
+if y>z = 20>1120 => false
+ if x>y = 10>20 => false
+  hop := hip(10,20) + 1120
+
+	hip (x,y) + z = hip(10,20)+1120
+
+if x<y = 10<20 => true
+ hip := hip(10,20)
+
+if x<y = 20<10 => false
+ hip := hap(20,1) + hap(10,2);
+
+	hap (x,1)+hap(x,2) = hap(20,1)+hap(10,2)
+if t = 1 => true
+ hap := 20 mod 5 => 0
+if t = 1 => false
+ hap := 5*10 = 50
+
+
+hip := hap(20,1)+hap (10,2)
+	   0     +   50  = 50
+hip := hip(10,20) + 1120
+            50     + 1120 = 1170
+
+
+	hip(x,y) = hip(381,1171)
+
+if x>y = 381<1170 => true
+ hip := hip(1170,381)
+
+if x>y = 1170<381 => false
+ hip := hap(1170,1)+hap(381,2)
+
+	hap(x,1)+hap(x,2) = hap(1170,1)+hap(381,2)
+
+if t = 1 = true
+ hap := 1170 mod 5 => 0
+if t = 1 = false
+ hap := 5*381 => 1905
+
+hip(381,1170)
+hip := hap(1170)+hap(381,2)
+	  0       +   1905   => 1905
+
+
+	hap(21,30)
+if t = 1 =false
+ hap := 5*21 n=> 105
+
+
+		(hip(hop(201,320,12),hop(20,1120,10))+hap(21,30))
+				1905                 +     105   = 2010        

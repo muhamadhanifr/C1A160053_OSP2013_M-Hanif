@@ -1,0 +1,9 @@
+input "s4yA-BuK4N+oRanG aLaY!?"
+
+for i := length(kalimat) downto 1 do => "?!YaLa GnaRo+N4KuB-Ay4s"
+
+if pos (kalimat[i], base) > 0 then => true
+ kata := kata + kalimat[i] => kata := " " + "YLGRNKBA"
+
+
+kata := YLGRNKBA

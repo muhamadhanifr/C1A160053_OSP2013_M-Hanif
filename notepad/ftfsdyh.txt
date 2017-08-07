@@ -1,0 +1,7 @@
+kibo 7
+(7-1=6)+(7-3=4)=10;
+((kibo5)+(kibo3))=8	((kibo3)+(kibo1))=4
+(((kibo4)+(kibo2))=6 ((kibo2)+(kibo0))=2)
+kibo3
+
+       	

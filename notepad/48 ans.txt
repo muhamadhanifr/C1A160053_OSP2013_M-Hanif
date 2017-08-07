@@ -1,0 +1,37 @@
+48.
+
+flip (4,7)
+
+if (a=0) => flip := 0
+if (b=0) => flop := 0
+
+flip := a+flop(a-1,b) => flip := 4+flop(3,7)
+
+flop := b + flip(a,b-1) => flop := 7 + flip(3,6)
+
+flip := a + flop(a-1,b) => flip := 3 + flop(2,6)
+
+flop := b + flip(a,b-1) => flop := 6 + flip(2,5)
+
+flip := a + flop(a-1,b) => flip := 2 + flop(1,5)
+
+flop := b + flip(a,b-1) => flop := 5 + flip(1,4)
+
+flip := a + flop(a-1,b) => flip := 1 + flop(0,4)
+
+flop := b + flip(a,b-1) => flop := 4 + flip(0,3)
+
+
+flip(0,3) => 0
+
+
+4 + 7 + 3 + 6 + 2 + 5 + 1 + 4 + 0 = 32 
+
+
+
+
+49.
+
+flop(100,200)
+
+Prosesnya sama seperti no 48 dengan hasil nilai = 20200
